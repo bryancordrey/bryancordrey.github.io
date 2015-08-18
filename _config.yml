@@ -21,7 +21,7 @@ description: "Cordrey Wedding - April 30th, 2016"
 source_link: ""
 favicon:     #put a path like: "img/favicon.ico"
 touch_icon:  #put a path like: "img/apple-touch-icon.png"
-google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+google_analytics_key: "UA-66448477-1"
 
 
 ### template colors, used site-wide via css ###
@@ -33,7 +33,11 @@ colors:
   purple:    '#c869bf'
   orange:    '#fab125'
   turquoise: '#0fbfcf'
+#our colors
   coral:     '#8BCDCF'
   pink:     '#FE7678'
-  lt-grey:   '#9E9EA6'
-  
+  medium-grey:   '#9E9EA6'
+  yellow:    '#FFF467'
+  turqoise:  '#8BCDCF'
+  pale-yellow: '#FEEDC2'
+  blush:      '#FFF0F5'
