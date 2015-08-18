@@ -52,7 +52,9 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px "Raleway" "HelveticaNeue-Light", Arial, sans-serif;
+		font: 20px/26px "Raleway" "HelveticaNeue-Light", Arial, sans-serif;
+		font-family: 'Advent Pro', sans-serif;
+		font-size:20px;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -92,8 +94,8 @@
 
 /* #Links
 ================================================== */
-	a, a:visited { text-decoration: underline; outline: 0; }
-	a:hover, a:focus { }
+	a, a:visited { color:#444; text-decoration: none; outline: 0; }
+	a:hover, a:focus { color:#444; text-decoration:underline;}
 	p a, p a:visited { line-height: inherit; }
 
 
@@ -150,7 +152,9 @@
 	  margin-bottom: 20px;
 	  line-height: normal;
 	  padding: 8px 10px;
-	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+	 /* font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+		font-family: 'Advent Pro', sans-serif;
+	 }
 
 	.button:hover,
 	button:hover,
@@ -364,3 +368,23 @@ span.lineno {
 .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
 .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
+
+
+/** Custom **/
+/*.p-intro h1, .p-intro h2, .p-intro h3, .p-intro h4,.p-intro h5,.p-intro h6,.p-intro p {*/
+.p-intro h2{
+	font-family: 'Petit Formal Script', cursive;
+}
+
+.p-intro .save-date.large-4 {
+	padding-top: 100px;
+}
+
+h1.nav-title a{
+	color: #9E9EA6;
+	text-decoration: none;
+}
+h1.nav-title a:hover, h1.nav-title a:visited{
+	color: #9E9EA6;
+	text-decoration: none;
+}
