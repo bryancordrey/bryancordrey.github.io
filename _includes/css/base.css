@@ -372,6 +372,14 @@ span.lineno {
 
 /** Custom **/
 /*.p-intro h1, .p-intro h2, .p-intro h3, .p-intro h4,.p-intro h5,.p-intro h6,.p-intro p {*/
+#main .section.p-intro {
+	padding: 9em 0 5em 0;
+}
+#main .section {
+	padding: 2em 0;
+}
+
+/* Intro */
 .p-intro h2{
 	font-family: 'Petit Formal Script', cursive;
 }
@@ -387,4 +395,16 @@ h1.nav-title a{
 h1.nav-title a:hover, h1.nav-title a:visited{
 	color: #9E9EA6;
 	text-decoration: none;
+}
+
+div.large-12 {
+	margin: 3em 0;
+}
+
+/*** Venue  ***/
+.large-5.ceremony {
+	margin: 10em 0;
+}
+.small-12.ceremony {
+	margin: 3em 0;
 }

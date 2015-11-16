@@ -1,7 +1,7 @@
 ---
 title: Our Favorites
-bg: "pale-yellow"
-color: white
+bg: "medium-grey"
+color: black
 published: true
 ---
 <div class="row">
