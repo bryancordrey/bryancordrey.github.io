@@ -1,12 +1,12 @@
 ---
-title: Our Favorites
+title: Map
 bg: "medium-grey"
 color: black
 published: true
 ---
 <div class="row">
     <div class="large-12 small-12 medium-12 columns">
-      <h1>Our Favorites</h1>
+      <h1>Our Favorite Places</h1>
     </div>
     <div class="large-10 large-centered hide-for-small hide-for-medium columns favorites">
       <iframe src="https://www.google.com/maps/d/u/0/embed?mid=z9RXFm1tmWL0.kajiQ9CD5p1M" width="1004" height="700"></iframe>

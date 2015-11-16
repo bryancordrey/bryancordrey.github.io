@@ -1,5 +1,5 @@
 ---
-title: Venue
+title: Reception
 bg: "pale-yellow"
 color: black
 published: true
@@ -7,15 +7,16 @@ published: true
 <div class="row">
     
   <div class="small-12 large-12 columns reception">
-    <h2>Reception</h2>
+    <h2>Followed by a Reception at..</h2>
   </div>
 
-  <div class="small-12 large-3 large-offset-2 columns">
-    <img src="/img/inn-logo.png" />
+  <div class="small-12 large-4 large-offset-2 columns">
+    <a href="http://www.theinnatcanalsquare.com/" target="_blank"><img src="/img/inn.jpg" /></a>
   </div>
-  <div class="small-12 large-7 columns">
+  <div class="small-12 large-3 end columns reception-location">
 
-    <p>122 Market Street <br/>
-       Lewes, DE 19958</p>
+    <h3><a href="http://www.theinnatcanalsquare.com/" target="_blank">Inn at Canal Square</a><br/>
+       122 Market Street <br/>
+       Lewes, DE 19958</h3>
   </div>
 </div>

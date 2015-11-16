@@ -376,7 +376,7 @@ span.lineno {
 	padding: 9em 0 5em 0;
 }
 #main .section {
-	padding: 2em 0;
+	padding: 2em 0 5em 0;
 }
 
 /* Intro */
@@ -407,4 +407,12 @@ div.large-12 {
 }
 .small-12.ceremony {
 	margin: 3em 0;
+}
+
+/*** Reception ***/
+.large-3.reception-location {
+	margin:2em 0;
+}
+.small-12.reception-location {
+	margin:2em 0;
 }
