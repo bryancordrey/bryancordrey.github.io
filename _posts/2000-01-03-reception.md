@@ -10,7 +10,7 @@ published: true
     <h2>Followed by a Reception at..</h2>
   </div>
 
-  <div class="small-12 large-4 large-offset-2 columns">
+  <div class="small-12 large-5 large-offset-1 columns">
     <a href="http://www.theinnatcanalsquare.com/" target="_blank"><img src="/img/inn.jpg" /></a>
   </div>
   <div class="small-12 large-3 end columns reception-location">
