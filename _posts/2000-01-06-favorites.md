@@ -1,6 +1,6 @@
 ---
 title: Map
-bg: "medium-grey"
+bg: "pale-yellow"
 color: black
 published: true
 ---
