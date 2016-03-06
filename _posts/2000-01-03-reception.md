@@ -2,7 +2,7 @@
 title: Reception
 bg: "pale-yellow"
 color: black
-published: true
+published: false
 ---
 <div class="row">
     
