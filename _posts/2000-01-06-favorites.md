@@ -2,7 +2,7 @@
 title: Map
 bg: "pale-yellow"
 color: black
-published: true
+published: false
 ---
 <div class="row">
     <div class="large-12 small-12 medium-12 columns">
