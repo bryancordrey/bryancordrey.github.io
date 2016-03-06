@@ -380,12 +380,8 @@ span.lineno {
 }
 
 /* Intro */
-.p-intro h2{
+h3.names, h3.time{
 	font-family: 'Petit Formal Script', cursive;
-}
-
-.p-intro .save-date.large-4 {
-	padding-top: 100px;
 }
 
 h1.nav-title a{
@@ -397,22 +393,47 @@ h1.nav-title a:hover, h1.nav-title a:visited{
 	text-decoration: none;
 }
 
-div.large-12 {
-	margin: 3em 0;
+@media (min-width: 700px) {
+	div.large-12 {
+		margin: 2em 0;
+	}
+
+	/*** Intro ***/
+	.p-intro .save-date.large-4 {
+		padding-top: 60px;
+	}
+
+  /*** Wedding ***/
+
+	.large-5.ceremony {
+		margin: 6em 0;
+	}
+
+  .ceremony h3.time {
+		padding: 1em 0;
+  }
+
+	/*** Reception ***/
+	.large-4.reception-location {
+		margin:4.5em 0;
+	}
+
+}
+@media (max-width: 699px) {
+	/*** Venue  ***/
+	.small-12.ceremony {
+		margin: 3em 0;
+	}
+	/*** Reception ***/
+	.small-12.reception-location {
+		margin:2em 0;
+	}
+
 }
 
-/*** Venue  ***/
-.large-5.ceremony {
-	margin: 10em 0;
-}
-.small-12.ceremony {
-	margin: 3em 0;
-}
 
-/*** Reception ***/
-.large-3.reception-location {
-	margin:2em 0;
-}
-.small-12.reception-location {
-	margin:2em 0;
+
+/*** Registries ***/
+.row.registries {
+	margin: 50px auto;
 }
